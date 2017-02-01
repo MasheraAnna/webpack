@@ -1,0 +1,386 @@
+
+Webpack is watching the filesтАж
+
+{
+  "errors": [],
+  "warnings": [],
+  "version": "2.1.0-beta.22",
+  "hash": "3e40c6500528343dface",
+  "time": 1279,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "home": "home.js",
+    "about": "about.js",
+    "common": "common.js"
+  },
+  "assets": [
+    {
+      "name": "home.js",
+      "size": 911,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "home"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "about.js",
+      "size": 923,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "about"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "common.js",
+      "size": 13484,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    }
+  ],
+  "entrypoints": {
+    "about": {
+      "chunks": [
+        2,
+        1
+      ],
+      "assets": [
+        "common.js",
+        "about.js"
+      ]
+    },
+    "home": {
+      "chunks": [
+        2,
+        0
+      ],
+      "assets": [
+        "common.js",
+        "home.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 270,
+      "names": [
+        "home"
+      ],
+      "files": [
+        "home.js"
+      ],
+      "hash": "5ed1e497951835b61828",
+      "parents": [
+        2
+      ],
+      "modules": [
+        {
+          "id": 2,
+          "identifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\home.js",
+          "name": "./home.js",
+          "index": 2,
+          "index2": 2,
+          "size": 270,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 49,
+            "building": 1105
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "source": "'use strict';\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _welcome2.default)(\"home\");\n\nexports.welcome = _welcome2.default;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 2,
+          "module": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\home.js",
+          "moduleIdentifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\home.js",
+          "moduleName": "./home.js",
+          "loc": "",
+          "name": "home",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 271,
+      "names": [
+        "about"
+      ],
+      "files": [
+        "about.js"
+      ],
+      "hash": "b35ee9a1c4fc4699f6da",
+      "parents": [
+        2
+      ],
+      "modules": [
+        {
+          "id": 1,
+          "identifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\about.js",
+          "name": "./about.js",
+          "index": 0,
+          "index2": 1,
+          "size": 271,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 840,
+            "building": 342,
+            "dependencies": 6
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "source": "'use strict';\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _welcome2.default)(\"about\");\n\nexports.welcome = _welcome2.default;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 1,
+          "module": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\about.js",
+          "moduleIdentifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\about.js",
+          "moduleName": "./about.js",
+          "loc": "",
+          "name": "about",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 148,
+      "names": [
+        "common"
+      ],
+      "files": [
+        "common.js"
+      ],
+      "hash": "7f0e9e4bcc1e13f5b5fc",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\welcome.js",
+          "name": "./welcome.js",
+          "index": 1,
+          "index2": 0,
+          "size": 148,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "assets": [],
+          "issuer": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\home.js",
+          "issuerId": 2,
+          "issuerName": "./home.js",
+          "profile": {
+            "factory": 38,
+            "building": 31
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "type": "cjs require",
+              "userRequest": "./welcome",
+              "loc": "3:15-35"
+            },
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "type": "cjs require",
+              "userRequest": "./welcome",
+              "loc": "3:15-35"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "source": "'use strict';\n\nmodule.exports = function (message) {\n\n\tif (NODE_ENV == 'development') {\n\t\tconsole.log(\"hello\");\n\t}\n\n\talert('Welcome ' + message);\n};"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\welcome.js",
+      "name": "./welcome.js",
+      "index": 1,
+      "index2": 0,
+      "size": 148,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "assets": [],
+      "issuer": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\home.js",
+      "issuerId": 2,
+      "issuerName": "./home.js",
+      "profile": {
+        "factory": 38,
+        "building": 31
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\about.js",
+          "module": "./about.js",
+          "moduleName": "./about.js",
+          "type": "cjs require",
+          "userRequest": "./welcome",
+          "loc": "3:15-35"
+        },
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\home.js",
+          "module": "./home.js",
+          "moduleName": "./home.js",
+          "type": "cjs require",
+          "userRequest": "./welcome",
+          "loc": "3:15-35"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "source": "'use strict';\n\nmodule.exports = function (message) {\n\n\tif (NODE_ENV == 'development') {\n\t\tconsole.log(\"hello\");\n\t}\n\n\talert('Welcome ' + message);\n};"
+    },
+    {
+      "id": 1,
+      "identifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\about.js",
+      "name": "./about.js",
+      "index": 0,
+      "index2": 1,
+      "size": 271,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 840,
+        "building": 342,
+        "dependencies": 6
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "source": "'use strict';\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _welcome2.default)(\"about\");\n\nexports.welcome = _welcome2.default;"
+    },
+    {
+      "id": 2,
+      "identifier": "C:\\projects\\Webpack\\project2\\node_modules\\babel-loader\\lib\\index.js?{\"presets\":[\"es2015\"]}!C:\\projects\\Webpack\\project2/frontend\\home.js",
+      "name": "./home.js",
+      "index": 2,
+      "index2": 2,
+      "size": 270,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 49,
+        "building": 1105
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "source": "'use strict';\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _welcome2.default)(\"home\");\n\nexports.welcome = _welcome2.default;"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
+Завершить выполнение пакетного файла [Y(да)/N(нет)]? Завершить выполнение пакетного файла [Y(да)/N(нет)]? 
+
+C:\projects\Webpack\project2>
